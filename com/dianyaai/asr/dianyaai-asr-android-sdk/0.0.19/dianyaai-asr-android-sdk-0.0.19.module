@@ -1,0 +1,143 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.dianyaai.asr",
+    "module": "dianyaai-asr-android-sdk",
+    "version": "0.0.19",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dianyaai-asr-android-sdk-0.0.19.aar",
+          "url": "dianyaai-asr-android-sdk-0.0.19.aar",
+          "size": 181003,
+          "sha512": "cf71e018a2d522d3324eaf612012465be864a41a252c1cadbc1750fc8804d467739664b24fe091594a9ad093dbe84aa4e60500473636d5b80baa07826bd0105d",
+          "sha256": "cf66d52a363ed217dbefe2166edfad90ec821be90ba68865f4dff533a2c4aea8",
+          "sha1": "4736cf8a91a9882c667b54acbdeeda16206b211a",
+          "md5": "44458efb54429465b9bd3e2b166e3961"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp-bom",
+          "version": {
+            "requires": "4.12.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp"
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.6.3"
+          }
+        },
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dianyaai-asr-android-sdk-0.0.19.aar",
+          "url": "dianyaai-asr-android-sdk-0.0.19.aar",
+          "size": 181003,
+          "sha512": "cf71e018a2d522d3324eaf612012465be864a41a252c1cadbc1750fc8804d467739664b24fe091594a9ad093dbe84aa4e60500473636d5b80baa07826bd0105d",
+          "sha256": "cf66d52a363ed217dbefe2166edfad90ec821be90ba68865f4dff533a2c4aea8",
+          "sha1": "4736cf8a91a9882c667b54acbdeeda16206b211a",
+          "md5": "44458efb54429465b9bd3e2b166e3961"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "dianyaai-asr-android-sdk-0.0.19-javadoc.jar",
+          "url": "dianyaai-asr-android-sdk-0.0.19-javadoc.jar",
+          "size": 436275,
+          "sha512": "ba4d835fdf0a10b45c6807b0a848fce2f00d3d66c4b1610cc4a4388d447548be1918aeb6c598c7f7a95c4a6203d04a457bd839807f4123dbd52773cba0af9c61",
+          "sha256": "e7edbd170521d2fdffe8439e8cf5338abe1bd39a3baab091e8ce234b8ebe9a86",
+          "sha1": "bdc1e5478edebc8832cd729b0912e33bdfaab4bc",
+          "md5": "3831a98e9cced09e8820e6292d7a1d71"
+        }
+      ]
+    }
+  ]
+}
