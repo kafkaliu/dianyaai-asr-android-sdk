@@ -11,7 +11,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.dianyaai.asr.examples"
+        applicationId = "com.dianyaai.asr.examples.asrdemo1"
         minSdk = 28
         targetSdk = 36
         versionCode = 1
