@@ -3,11 +3,11 @@
   <groupId>com.dianyaai.asr</groupId>
   <artifactId>dianyaai-asr-android-sdk</artifactId>
   <versioning>
-    <latest>0.0.19</latest>
-    <release>0.0.19</release>
+    <latest>1.0.0</latest>
+    <release>1.0.0</release>
     <versions>
-      <version>0.0.19</version>
+      <version>1.0.0</version>
     </versions>
-    <lastUpdated>20251108083845</lastUpdated>
+    <lastUpdated>20251113125354</lastUpdated>
   </versioning>
 </metadata>
