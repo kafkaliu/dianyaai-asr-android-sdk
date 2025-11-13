@@ -58,7 +58,7 @@ dependencies {
     implementation(libs.okhttp)
     implementation(libs.kotlinx.serialization.json)
 
-    implementation("com.dianyaai.asr:dianyaai-asr-android-sdk:0.0.19")
+    implementation("com.dianyaai.asr:dianyaai-asr-android-sdk:1.0.0")
     implementation("com.jakewharton.timber:timber:5.0.1")
 
     testImplementation(libs.junit)
