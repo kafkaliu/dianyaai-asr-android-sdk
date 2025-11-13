@@ -2,7 +2,6 @@
 .gradle
 .gemini/
 .gemini-clipboard/
-gradle/
 .idea/
 /local.properties
 /.idea/caches
